@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+header {
+    background: #000000;
+    text-align: center;
+    padding: 40px;
+    background: #0f0f0f;
+    box-shadow: 0px 0px 0px 1px #3a3a3a;
+}
+
+#logo {
+    position: absolute;
+    width: 250px;
+    top: 30px;
+    left: 30px;
+}
+
+nav ul {
+    text-align: center;
+    background: #0d0f0f;
+}
+
+nav ul li {
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 35px;
+    display: inline;
+}
+
+nav ul li a {
+    color: #cacaca;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #818181;
+}
+
+#conteudo {
+    background: #f5f5f5;
+    color: #000000;
+    text-align: center;
+    padding: 100px;
+    flex: 1;
+}
+
+#conteudo article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    flex: 2;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #0f0f0f;
+    padding: 40px;
+    color: #cacaca;
+    box-shadow: 0px 0px 0px 1px #3a3a3a;
+}
+
+/* responsa */
+@media(min-width: 700px) {
+    #conteiner {
+        flex-direction: column;
+    }
+
+    #conteudoAside {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #conteudo {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+    }
+}
