@@ -55,42 +55,6 @@ nav ul li a:hover {
     color: #818181;
 }
 
-#feed {
-    margin: 20px;
-    background: #f5f5f5;
-    color: #000000;
-    padding: 400px;
-    flex: 1;
-}
-
-#feed article {
-    display: flex;
-}
-
-#feed article h1 {
-    font-family: "raleway";
-    font-size: 50px;
-    font-weight: 900;
-    top: 300px;
-    color: #000000;
-}
-
-aside {
-    background: #f5f5f5;
-    text-align: center;
-    padding: 0px;
-    flex: 2;
-}
-
-#contAside {
-    margin: 20px;
-    width: 400px;
-    height: 800px;
-    background-color: #d1d1d1;
-    box-shadow: 0px 0px 0px 1px #bbbbbb;
-    border-radius: 15px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -106,16 +70,4 @@ footer {
         flex-direction: column;
     }
 
-    #conteudo {
-        display: flex;
-        flex-grow: 1;
-    }
-
-    #feed {
-        flex: 2;
-    }
-
-    aside {
-        flex: 1;
-    }
 }
